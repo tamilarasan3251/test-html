@@ -1,0 +1,319 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  position: relative;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+}
+
+.navbar {
+  position: absolute;
+  left: 100px;
+}
+
+.navbar ul {
+  color: rgb(239, 242, 245);
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  padding: 20px;
+}
+
+.plogo {
+  margin-left: 20px;
+}
+
+.search {
+  top: 16px;
+  position: absolute;
+  right: 380px;
+}
+
+input {
+  background-color: transparent;
+  border: 2px solid gray;
+  color: aqua;
+  height: 25px;
+  width: 280px;
+}
+
+.slogo {
+  right: 390px;
+  top: 22px;
+  position: absolute;
+}
+
+.cart {
+  top: 15px;
+  right: 210px;
+  position: absolute;
+}
+
+.heart {
+  top: 10px;
+  right: 130px;
+  position: absolute;
+}
+
+.contact {
+  top: 10px;
+  right: 50px;
+  position: absolute;
+}
+
+#droupdown {
+  display: none;
+  list-style-type: none;
+  flex-direction: column;
+  position: absolute;
+  background-color: black;
+}
+
+.navbar li:nth-child(1):hover #droupdown {
+  display: block;
+}
+
+.navbar li:nth-child(2):hover #droupdown {
+  display: block;
+}
+
+.navbar li:nth-child(3):hover #droupdown {
+  display: block;
+}
+
+.navbar li:nth-child(4):hover #droupdown {
+  display: block;
+}
+
+.navbar li:nth-child(5):hover #droupdown {
+  display: block;
+}
+
+.navbar li:nth-child(6):hover #droupdown {
+  display: block;
+}
+
+.bgi-1 {
+  /* position: relative; */
+  justify-content: center;
+}
+
+.bgiword {
+  z-index: 1;
+  position: absolute;
+  font-size: 50px;
+  bottom: 350px;
+  left: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.stake {
+  font-size: 20px;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+  background-color: black;
+  color: #fff;
+  width: 110px;
+  height: 40px;
+  position: absolute;
+}
+
+.smallheader {
+  text-align: center;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.collection {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bra {
+  text-align: center;
+}
+
+.sportsbras {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.brabutton {
+  background-color: black;
+  color: #fff;
+  padding: 8px;
+}
+
+.leg {
+  text-align: center;
+}
+
+.leggings {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.legbutton {
+  background-color: black;
+  color: #fff;
+  padding: 8px;
+}
+
+.run {
+  text-align: center;
+}
+
+.running {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.runbutton {
+  background-color: black;
+  color: #fff;
+  padding: 8px;
+}
+
+.womencontainer {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.womenhead {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.womencenter {
+  text-align: justify;
+  margin: 10px;
+}
+
+.footer {
+  height: 500px;
+  margin: auto 0;
+  display: flex;
+  justify-content: space-around;
+  background: #000;
+  max-width: 1800px;
+}
+
+.support {
+  color: #fff;
+  display: flex;
+}
+
+.support ul li {
+  list-style-type: none;
+  color: #fff;
+  padding: 5px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.support ul li:hover {
+  opacity: 1;
+}
+
+.footer h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+.about {
+  display: flex;
+}
+
+.about ul li {
+  list-style-type: none;
+  color: #fff;
+  padding: 5px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.about ul li:hover {
+  opacity: 1;
+}
+
+.line {
+  width: 97%;
+  height: 3px;
+  background: rgb(245, 236, 236);
+  margin: 5px 0;
+}
+
+.footer h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+.end {
+  margin-top: 20px;
+}
+
+.signupbutton {
+  margin-top: 15px;
+  background-color: #ae946d;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+  width: 400px;
+  font-size: medium;
+  font-weight: bold;
+  color: #fff;
+}
+
+.signupspan {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+
+  transform: skew(12deg);
+  font-size: x-large;
+}
+.icon i {
+  color: #fff;
+  opacity: 0.4;
+}
+
+.icon i:hover {
+  opacity: 1;
+}
+
+.line1 {
+  width: 97%;
+  height: 3px;
+  background: rgb(245, 236, 236);
+  margin: 5px 0;
+}
+.end {
+  margin-top: 100px;
+}
+
+.footsupport {
+  margin-top: 100px;
+}
+.footabout {
+  margin-top: 100px;
+}
